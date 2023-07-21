@@ -71,6 +71,7 @@ public class MenuRegister extends JFrame{
                 }
             }
         });
+        panel.add(browseButton);
 
         JButton register = new JButton("Register");
         register.addActionListener(new ActionListener() {
@@ -94,7 +95,7 @@ public class MenuRegister extends JFrame{
             }
         });
         panel.add(register); panel.add(back);
-        panel.setLayout(new GridLayout(7, 2));
+        panel.setLayout(new GridLayout(8, 2));
         add(panel);
         setVisible(true);
     }
